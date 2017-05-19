@@ -6,6 +6,11 @@
 
 # Define Function below
 # be sure to return an integer
+import math
+
+def calculateConeVolume(radius, height):
+    return round(((1.0/3.0) * math.pi * radius * radius * height), 2)
+    
 
 
 if __name__ == '__main__':
